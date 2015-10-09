@@ -17,7 +17,7 @@ public class ServletInitializer extends
 
 	@Override
 	protected String[] getServletMappings() {
-		return new String[]{"/app/*"};
+		return new String[]{"/"};
 	}
 
 }
